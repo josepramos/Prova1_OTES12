@@ -2,7 +2,7 @@
 
 ---
 
-<h1> Como realizar a integração? </h1>
+<h2> Como realizar a integração? </h2>
 1. Baixe o package Biblioteca e o adicione no mesmo diretório da sua aplicação.
 2. Na sua aplicação, faça o import - No começo do código adicione o comando "import Biblioteca;" 
 
@@ -53,7 +53,7 @@ Abaixo segue uma lista de comandos que podem ser utilizados: (estão no main.jav
 
 ---
 
-Qual a finalidade dos componentes?
+<h2>Qual a finalidade dos componentes?</h2>
 
 Facilitar a criação de uma aplicação de monitoramento do progresso de cada vendedor na consecução da cota.
 Em relação aos meus padrões de projeto específicos (Chain of Responsibility e Adapter), eles tem a seguinte finalidade:
