@@ -2,7 +2,7 @@
 
 ---
 
-Como realizar a integração?
+<h1> Como realizar a integração? </h1>
 1. Baixe o package Biblioteca e o adicione no mesmo diretório da sua aplicação.
 2. Na sua aplicação, faça o import - No começo do código adicione o comando "import Biblioteca;" 
 
