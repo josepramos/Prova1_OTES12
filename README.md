@@ -3,9 +3,9 @@
 ---
 
 <h2> Como realizar a integração? </h2>
-1. Baixe o package Biblioteca e o adicione no mesmo diretório da sua aplicação Java.
+1. Baixe o package Biblioteca e o adicione no mesmo diretório da sua aplicação <b>Java.</b><br>
 2. Na sua aplicação, faça o import - No começo do código adicione o comando "import Biblioteca.*;" 
-
+<br>
 Abaixo segue uma lista de comandos que podem ser utilizados: (estão no main.java):
 
 		//Criar uma lista de registro das vendas:
@@ -55,8 +55,9 @@ Abaixo segue uma lista de comandos que podem ser utilizados: (estão no main.jav
 
 <h2>Qual a finalidade dos componentes?</h2>
 
-Facilitar a criação de uma aplicação de monitoramento do progresso de cada vendedor na consecução da cota.
-Em relação aos meus padrões de projeto específicos (Chain of Responsibility e Adapter), eles tem a seguinte finalidade:
-
-Adapter (classe Adapter): Faz com que objetos que tenham parâmetros imcompatíveis possam se comunicar entre si, por intermédio do Adapter. - Na minha aplicação isso foi contemplado com a adaptação do campo "Cidade" para "Região", no registro de Venda.
-Chain of Responsability (classes Handlers): Fazem com que a aplicação passe os pedidos por uma corrente de processos. Cada handler (processo) decidirá se o pedido passa adiante para o próximo handler na corrente ou se é abandonado, não concluindo o processo. - Na minha aplicação isso foi contemplado fazendo verificações no momento do cadastro da Cota, conferindo se o token do usuário que estava fazendo o cadastro tem autorização e depois conferindo se a data da cota está de acordo com a possibilidade de cadastro (não é possível cadastrar cota no passado na minha aplicação).
+Facilitar a criação de uma aplicação de monitoramento do progresso de cada vendedor na consecução da cota.<br>
+Em relação aos meus padrões de projeto específicos (Chain of Responsibility e Adapter), eles tem a seguinte finalidade:<br>
+<br>
+Adapter (classe Adapter): Faz com que objetos que tenham parâmetros imcompatíveis possam se comunicar entre si, por intermédio do Adapter. - Na minha aplicação isso foi contemplado com a adaptação do campo "Cidade" para "Região", no registro de Venda.<br>
+<br>
+Chain of Responsability (classes Handlers): Fazem com que a aplicação passe os pedidos por uma corrente de processos. Cada handler (processo) decidirá se o pedido passa adiante para o próximo handler na corrente ou se é abandonado, não concluindo o processo. - Na minha aplicação isso foi contemplado fazendo verificações no momento do cadastro da Cota, conferindo se o token do usuário que estava fazendo o cadastro tem autorização e depois conferindo se a data da cota está de acordo com a possibilidade de cadastro (não é possível cadastrar cota no passado na minha aplicação).<br>
