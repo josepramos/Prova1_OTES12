@@ -3,7 +3,7 @@
 ---
 
 <h2> Como realizar a integração? </h2>
-1. Baixe o package Biblioteca e o adicione no mesmo diretório da sua aplicação.
+1. Baixe o package Biblioteca e o adicione no mesmo diretório da sua aplicação <b>Java</b>.
 2. Na sua aplicação, faça o import - No começo do código adicione o comando "import Biblioteca.*;" 
 
 Abaixo segue uma lista de comandos que podem ser utilizados: (estão no main.java):
